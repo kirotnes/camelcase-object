@@ -1,0 +1,51 @@
+{
+  "name": "camelcase-object",
+  "version": "1.0.0",
+  "description": "Convert object keys recursivly to camelCase",
+  "license": "MIT",
+  "repository": "kirotnes/camelcase-object",
+  "author": {
+    "name": "Kjell Inge Rotnes",
+    "email": "kirotnes@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "map",
+    "obj",
+    "object",
+    "key",
+    "keys",
+    "value",
+    "values",
+    "val",
+    "iterate",
+    "camelcase",
+    "camel-case",
+    "camel",
+    "case",
+    "dash",
+    "hyphen",
+    "dot",
+    "underscore",
+    "separator",
+    "string",
+    "text",
+    "convert"
+  ],
+  "devDependencies": {
+    "ava": "*"   
+  },
+  "dependencies": {
+    "camelcase": "^2.0.0",
+    "map-obj": "^1.0.0"
+  }
+}

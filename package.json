@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Convert object keys recursivly to camelCase",
   "license": "MIT",
-  "repository": "kirotnes/camelcase-object",
+  "repository": "https://github.com/kirotnes/camelcase-object",
   "author": {
     "name": "Kjell Inge Rotnes",
     "email": "kirotnes@gmail.com",
-    "url": "http://sindresorhus.com"
+    "url": "https://github.com/kirotnes/camelcase-object"
   },
   "engines": {
     "node": ">=0.10.0"

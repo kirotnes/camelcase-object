@@ -1,6 +1,6 @@
 {
   "name": "camelcase-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert object keys recursivly to camelCase",
   "license": "MIT",
   "repository": "https://github.com/kirotnes/camelcase-object",

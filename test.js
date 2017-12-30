@@ -17,6 +17,10 @@ test(t => {
 	t.true(fn({'foo-bar': {'bar-foo' : [{'Test': true}]}}).fooBar.barFoo[0].test);
 });
 
+test(t => {
+	const date = new Date();
+	t.true(fn({some_date:date}).someDate === date);
+});
 
 
 

@@ -42,7 +42,7 @@
     "convert"
   ],
   "devDependencies": {
-    "ava": "*"   
+    "ava": "*"
   },
   "dependencies": {
     "camelcase": "^2.0.0",

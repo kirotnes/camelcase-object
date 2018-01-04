@@ -22,5 +22,13 @@ test(t => {
 	t.true(fn({some_date:date}).someDate === date);
 });
 
+test(t => {
+	const obj = {
+		phone_numbers:['123456','8910']
+	};
+
+	t.true(fn(obj).phoneNumbers[0] === '123456');
+})
+
 
 

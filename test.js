@@ -1,19 +1,19 @@
 import test from 'ava';
 import fn from './';
 
-test(t => {
+test('Simple Attribute', t => {
 	t.true(fn({'foo-bar': true}).fooBar);
 });
 
-test(t => {
-	t.true(fn({"Test" : [0,1]}).test.length>0);
+test('Lowercased Attribute', t => {
+	t.deepEqual(fn({"Test" : [0,1]}).test, [0, 1]);
 });
 
-test(t => {
+test('Nested attribute', t => {
 	t.true(fn({'foo-bar': {'bar-foo' : true}}).fooBar.barFoo);
 });
 
-test(t => {
+test('Deep nesting', t => {
 	t.true(fn({'foo-bar': {'bar-foo' : [{'Test': true}]}}).fooBar.barFoo[0].test);
 });
 

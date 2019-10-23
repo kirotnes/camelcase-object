@@ -13,7 +13,7 @@ const mapFunc = function (key, val) {
 const mapArray = (val) => {
     return val.map(function(o){
         return Array.isArray(o) ? mapArray(o)
-        : (typeof(o) === 'object') ? mapObj(o, mapFunc)
+        : (!!o && typeof(o) === 'object') ? mapObj(o, mapFunc)
         : o
     }) 
 }
